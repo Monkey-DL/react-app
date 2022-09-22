@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - name: publish
-      - env:
+      
+     env:
           GITHUN_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: npm run publish
