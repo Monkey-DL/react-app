@@ -46,8 +46,10 @@
         {
           "name": "@electron-forge/publisher-github",
           "config": {
-            "repository": "MooDLey",
-            "name": "test-app"
+            "repository": {
+              "owner": "MooDLey",
+              "name": "test-app"
+            }
           }
         }
       ]
