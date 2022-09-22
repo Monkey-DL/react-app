@@ -47,10 +47,9 @@
           "name": "@electron-forge/publisher-github",
           "config": {
             "repository": {
-              "owner": "erikhofer",
-              "name": "hello-electron"
-            },
-          "draft": true
+              "owner": "Monkey-DL",
+              "name": "react-app"
+            }
           }
         }
       ]
