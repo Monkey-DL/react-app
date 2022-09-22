@@ -47,9 +47,10 @@
           "name": "@electron-forge/publisher-github",
           "config": {
             "repository": {
-              "owner": "MooDLey",
-              "name": "react-app"
-            }
+              "owner": "erikhofer",
+              "name": "hello-electron"
+            },
+          "draft": true
           }
         }
       ]
